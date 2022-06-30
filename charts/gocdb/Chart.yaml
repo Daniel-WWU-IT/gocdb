@@ -2,13 +2,13 @@ apiVersion: v2
 name: gocdb
 description: GOCDB is a repository for storing and presenting mesh topology and resources information.
 type: application
-version: 0.3.0
+version: 0.3.1
 appVersion: 5.7.5
 home: https://wiki.egi.eu/wiki/GOCDB
 dependencies:
 - name: mariadb
   alias: database
-  version: 9.3.12
+  version: 11.0.x
   repository: "https://charts.bitnami.com/bitnami"
 sources:
   - https://github.com/GOCDB/gocdb

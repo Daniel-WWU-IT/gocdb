@@ -56,4 +56,5 @@ database:
 
   primary:
     service:
-      port: 3306
+      ports:
+        mysql: 3306
