@@ -28,6 +28,7 @@ The following changes were made to the original GOCDB code:
 - The `GOCDBAuthProvider` used a non-existing class; fix by passing the required reference in the constructor
 - PI: Protect all methods via an API key (env. variable `GOCDB_API_KEY`)
 - Write PI: Extensions for automatically creating/updating/removing user accounts added under `htdocs/PI/write/ext/`; these work independently from the main PI
+- Change variable `$allUserSites` in `htdocs/web_portal/controllers/service/add_service.php` in the `draw()` function to iterate over _all_ sites and then filter out all w/o proper access
 
 ## Contact
 The provided container is for testing purposes only. It is neither efficient nor secure. Not every detail of GOCDB was tested. If you encounter any problems, feel free to contact me at [daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de).
