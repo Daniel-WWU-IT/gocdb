@@ -29,8 +29,5 @@ The following changes were made to the original GOCDB code:
 - PI: Protect all methods via an API key (env. variable `GOCDB_API_KEY`)
 - Write PI: Extensions for automatically creating/updating/removing user accounts added under `htdocs/PI/write/ext/`; these work independently from the main PI
 
-## Notes
-To make setting up and working with the GOCDB easy, user authentication was removed. This renders some features unusable, like applying user roles.
-
 ## Contact
 The provided container is for testing purposes only. It is neither efficient nor secure. Not every detail of GOCDB was tested. If you encounter any problems, feel free to contact me at [daniel.mueller@uni-muenster.de](mailto:daniel.mueller@uni-muenster.de).

@@ -44,6 +44,9 @@ spec:
             - mountPath: /var/www/html/gocdb/config/local_info.xml
               subPath: local_info.xml
               name: config
+            - mountPath: /var/www/html/gocdb/config/web_portal/menu.xml
+              subPath: menu.xml
+              name: config
       restartPolicy: Always
       volumes:
         - name: config
