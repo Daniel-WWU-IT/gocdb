@@ -191,10 +191,10 @@
 				Forgot your password? Click <a href="<?php echo getenv('SITEACC_API') . '/account?path=login'; ?>">here</a> to manage your account.
 			</div>
 
-			<div style="grid-row: 3; align-self: center;">
+			<div style="grid-row: 4; align-self: center;">
 				Fields marked with <span class="mandatory">*</span> are mandatory.
 			</div>
-			<div style="grid-row: 3; grid-column: 2; text-align: right;">
+			<div style="grid-row: 4; grid-column: 2; text-align: right;">
 				<button type="submit" style="font-weight: bold;">Login</button>
 			</div>
 		</form>
