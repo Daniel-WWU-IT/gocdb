@@ -188,7 +188,7 @@
 			<div style="grid-row: 1;"><label for="password">Password: <span class="mandatory">*</span></label></div>
 			<div style="grid-row: 2;"><input type="password" id="password" name="password"/></div>
 			<div style="grid-row: 3; grid-column: 2; font-style: italic; font-size: 0.8em;">
-				Forgot your password? Click <a href="<?php echo getenv('SITEACC_API') . '/account?path=login'; ?>">here</a> to manage your account.
+				Forgot your password? Click <a href="<?php echo getenv('SITEACC_API') . '/account?path=login'; ?>" target="_blank">here</a> to manage your account.
 			</div>
 
 			<div style="grid-row: 4; align-self: center;">
