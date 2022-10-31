@@ -49,6 +49,7 @@ database:
   nameOverride: database
 
   auth:
+    rootPassword: "rootpwd"
     database: ""
 
   volumePermissions:
